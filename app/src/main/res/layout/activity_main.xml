@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="50sp"
+        android:textAlignment="center"
+
+        >
+
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtnumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese un numero"
+        android:textSize="41sp">
+
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtnumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese otro numero"
+        android:textSize="41sp">
+
+    </EditText>
+    <TextView
+        android:id="@+id/txtresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textAlignment="center"
+        android:text="resultado"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnsumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sumar"
+        android:text="Sumar"
+        android:textSize="30sp">
+
+    </Button>
+    <Button
+        android:id="@+id/btnrest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Restar"
+        android:text="Restar"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnmult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Multi"
+        android:text="Multiplicar"
+        android:textSize="30sp">
+
+    </Button>
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Div"
+        android:text="Dividir"
+        android:textSize="30sp">
+
+    </Button>
+
+</LinearLayout>
